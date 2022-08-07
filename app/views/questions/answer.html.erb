@@ -1,0 +1,11 @@
+<div class="mb-3 answer-container">
+  <p><%= @question.capitalize %></p>
+  <p><em>-You</em></p>
+</div>
+
+<div class="mb-3 answer-container coach-answer">
+  <p><strong><%= @answer %></strong></p>
+  <p><em>-Your coach</em></p>
+</div>
+
+<%= link_to 'Ask a new question', '/ask' %>
